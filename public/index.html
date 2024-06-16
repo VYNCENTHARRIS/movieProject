@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Movies</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Find Similar Movies</h1>
+    </header>
+    <main class="container">
+        <form id="search-form">
+            <!-- The aria-label attribute defines a string value that labels an interactive element. -->
+            <input type="text" id="movie-input" placeholder="Please enter a movie name" aria-label="Movie name">
+            <button type="submit">Search</button>
+        </form>
+        <section id="results" class="movie-grid"></section>
+        <section id="similar-movies" class="movie-grid"></section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
